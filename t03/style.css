@@ -1,0 +1,33 @@
+html {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 10px;
+}
+   
+*,
+*::after,
+*::before {
+        box-sizing: inherit;
+}
+
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 320px;
+    height: fit-content;
+    border: 2px solid red;
+}
+
+.ca .im .bw .sm {
+    display: inline-block;
+    width: 270px;
+    min-width: 270px;
+    height: 140px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}

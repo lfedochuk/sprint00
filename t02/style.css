@@ -1,0 +1,25 @@
+.wrapper {
+    display: inline-block;
+    row-gap: 10px;
+    height: 100px;
+    min-width: 500px;
+}
+
+#pole {
+    width: 400px;
+    color: green;
+}
+
+#pole:hover,
+#knopka:hover {
+    color: red;
+}
+
+#knopka {
+    color: green;
+}
+
+/*[type=submit] :hover
+{
+    color:green;
+}
